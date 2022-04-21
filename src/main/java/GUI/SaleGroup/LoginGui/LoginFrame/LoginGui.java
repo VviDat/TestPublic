@@ -50,7 +50,6 @@ public class LoginGui extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        imagePanel2 = new GUI.SaleGroup.LoginGui.Background.ImagePanel();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
@@ -215,20 +214,6 @@ public class LoginGui extends javax.swing.JFrame {
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Dễ Dàng - Bảo Mật - Nhanh Chóng");
 
-        imagePanel2.setBackground(new java.awt.Color(98, 196, 195));
-        imagePanel2.setImage(new javax.swing.ImageIcon(getClass().getResource("/GUI/SaleGroup/LoginGui/Image/icons8-user-100.png"))); // NOI18N
-
-        javax.swing.GroupLayout imagePanel2Layout = new javax.swing.GroupLayout(imagePanel2);
-        imagePanel2.setLayout(imagePanel2Layout);
-        imagePanel2Layout.setHorizontalGroup(
-            imagePanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 84, Short.MAX_VALUE)
-        );
-        imagePanel2Layout.setVerticalGroup(
-            imagePanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
-        );
-
         jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("<html>TRUY CẬP CỬA HÀNG THÔNG QUA TÀI KHOẢN CỦA BẠN");
@@ -246,7 +231,7 @@ public class LoginGui extends javax.swing.JFrame {
         backGroundLoginGui1Layout.setHorizontalGroup(
             backGroundLoginGui1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(backGroundLoginGui1Layout.createSequentialGroup()
-                .addGroup(backGroundLoginGui1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                .addGroup(backGroundLoginGui1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(backGroundLoginGui1Layout.createSequentialGroup()
                         .addGroup(backGroundLoginGui1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(backGroundLoginGui1Layout.createSequentialGroup()
@@ -254,14 +239,11 @@ public class LoginGui extends javax.swing.JFrame {
                                 .addComponent(jLabel9))
                             .addGroup(backGroundLoginGui1Layout.createSequentialGroup()
                                 .addGap(77, 77, 77)
-                                .addComponent(imagePanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(288, 288, 288))
+                                .addComponent(imagePanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(backGroundLoginGui1Layout.createSequentialGroup()
                         .addGap(143, 143, 143)
-                        .addComponent(jLabel5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(imagePanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                        .addComponent(jLabel5)))
+                .addGap(288, 288, 288)
                 .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 212, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, backGroundLoginGui1Layout.createSequentialGroup()
@@ -292,20 +274,15 @@ public class LoginGui extends javax.swing.JFrame {
         backGroundLoginGui1Layout.setVerticalGroup(
             backGroundLoginGui1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(backGroundLoginGui1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(backGroundLoginGui1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(backGroundLoginGui1Layout.createSequentialGroup()
-                        .addComponent(imagePanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(1, 1, 1))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, backGroundLoginGui1Layout.createSequentialGroup()
-                        .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)))
+                .addGap(30, 30, 30)
+                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addComponent(phoneGui1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel11)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel12)
-                .addContainerGap(29, Short.MAX_VALUE))
+                .addContainerGap(49, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, backGroundLoginGui1Layout.createSequentialGroup()
                 .addGap(44, 44, 44)
                 .addComponent(jLabel5)
@@ -409,7 +386,6 @@ public class LoginGui extends javax.swing.JFrame {
     private GUI.SaleGroup.LoginGui.Background.backGroundLoginGui backGroundLoginGui1;
     private GUI.SaleGroup.LoginGui.Component.Button button1;
     private GUI.SaleGroup.LoginGui.Background.ImagePanel imagePanel1;
-    private GUI.SaleGroup.LoginGui.Background.ImagePanel imagePanel2;
     private GUI.SaleGroup.LoginGui.Background.ImagePanel imagePanel3;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel1;
